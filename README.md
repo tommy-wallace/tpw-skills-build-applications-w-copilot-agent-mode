@@ -25,6 +25,15 @@ In this exercise, you will:
 1. Try other LLM models to see other output.
 1. For each step open up a new Copilot Chat session by hitting the plus `+` icon in the Copilot Chat pane.
 
+### Additional prompt: "Where's my feature?" lookup assistant
+
+This repository also includes a ready-to-run prompt for building a customer-safe feature status assistant:
+
+- Prompt: `.github/prompts/build-feature-status-slash-command.prompt.md`
+- Instructions: `.github/instructions/feature_status_lookup.instructions.md`
+
+Use it to scaffold a `/feature-status <query>` workflow that searches public GitHub issues, PRs, projects, and changelog sources, then returns a customer-safe summary (`shipped`, `in progress`, `not planned`) suitable for sharing externally.
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.
